@@ -1,0 +1,22 @@
+[client]
+remote_addr = "your-rathole-server.com:2333"  # Cambia a tu servidor Rathole
+
+[client.services.server1]
+type = "tcp"
+local_addr = "127.0.0.1:3000"
+remote_addr = "0.0.0.0:3000"  # Puerto expuesto en el servidor
+
+[client.services.server2]
+type = "tcp"
+local_addr = "127.0.0.1:3001"
+remote_addr = "0.0.0.0:3001"
+
+[client.services.server3]
+type = "tcp"
+local_addr = "127.0.0.1:3002"
+remote_addr = "0.0.0.0:3002"
+
+[client.services.server4]
+type = "tcp"
+local_addr = "127.0.0.1:3003"
+remote_addr = "0.0.0.0:3003"
